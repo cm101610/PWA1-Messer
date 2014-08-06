@@ -1,4 +1,5 @@
-//Christopher Messer
-//August 5, 2014
-//Week #1 :: { Homework } - ANALYZE Duel #1
-
+/*
+	Name: Christopehr Messer
+	Date: August 5, 2014
+	Assignment: Goal1: Assignment: Duel1
+*/
