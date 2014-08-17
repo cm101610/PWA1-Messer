@@ -1,0 +1,95 @@
+/*
+    Name: Christopher Messer
+    Date: August 5, 2014
+    Assignment: Goal1: Assignment: Duel1
+ */
+
+//self-executing function
+(function(){
+
+    console.log("FIGHT!!!"); //console.log used to be sure the .js file is set up and working correctly
+
+    //player name
+    var playerOneName = "Mask Face"; //var set up to give player 1 a name
+    var playerTwoName = "Tattoo Guy"; //var set up to give player 2 a name
+
+    //player damage
+    var player1Damage = 20; //var set up to set damage attributes for each player.
+    var player2Damage = 20; //both damages set to 20, random number selected between 0-20 and subtracted from health
+
+    //player health
+    var playerOneHealth = 100; //var set up for player health attributes.
+    var playerTwoHealth = 100; //each player begins with 100 and health is lost based on random number generated
+
+    var round=0; //var set up to begin with round 0. number is set at 0 so when the first round ends the alert will say that round 1 has ended.
+
+    function fight(){ //the beginning of the fight function
+        console.log('in the fight function');
+
+        //set up message to alert the user of the player name and starting health
+        alert(playerOneName+": "+playerOneHealth+"   *START*   "+playerTwoName+": "+playerTwoHealth);
+
+        for(var i=0; i<10;i++){
+
+            //random formula is - Math.floor(Math.random()*(max-min)+min);
+
+            var minDamage1 = player1Damage * .5; //var set for player1 minimum damage being equal to player1Damage multiplied by .5
+            var minDamage2 = player2Damage * .5; //var set for player2 minimum damage being equal to player1Damage multiplied by .5
+            var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1); //var set for randomizing the number that the player1 is damaged by.
+            var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2); //var set for randomizing the number that the player2 is damaged by.
+
+            //console.log(f1);
+            //console.log(f2);
+
+            //inflict damage
+            playerOneHealth-=f1; //damage that is inflicted on the player based on the random number generated for f1
+            playerTwoHealth-=f2; //damage that is inflicted on the player based on the random number generated for f2
+
+            console.log(playerOneName+": "+playerOneHealth+" "+playerTwoName+": "+playerTwoHealth); //testing to make sure code is still running correctly
+
+            var results = winnerCheck(); //var set for results to notify the user of the winner
+            console.log(results); //test to make sure results are showing in the console
+
+            //pseudocode for if/else statement below
+            //if there is no winner at the end of the round
+                //alert the user with player1 name and current health and player2 name and current health with the ending round in between the names
+            //else if there is a winner, end program and show message from winnerCheck function below
+
+            if(results==="no winner"){
+              round++;
+              alert(playerOneName+": "+playerOneHealth+"   *ROUND "+round+" OVER*   "+playerTwoName+": "+playerTwoHealth);
+            }else{
+              alert(results);
+              break;
+            };
+
+        };
+    };
+
+    function winnerCheck(){ //begin winnerCheck function to determine if there is a winner, if not cycle back through to earlier code
+        console.log("in winnerCheck FN"); //test to make sure program is working correctly and displaying all the rounds, health status and winner or no winner
+
+        var result = "no winner"; //var set up for notification of no winner yet
+
+        //pseudocode for if/else statement below
+        //if player1 and player2 both have total health less than 1 then both players die
+        //else if player1 has health less than 1, but player2 does not, then player2 wins notification
+        //else if player2 has health less than 1, but player1 does not, then player1 wins notification
+
+        if(playerOneHealth<1 && playerTwoHealth<1) {
+            result = "You Both Die";
+        } else if(playerOneHealth<1){
+            result = playerTwoName+" WINS!!!"
+        } else if(playerTwoHealth<1){
+            result = playerOneName+" WINS!!!"
+        };
+
+        return result; //returning the results of each round back to the if/else statement above determining no winner or to the if/else if statement determining who the winner is
+
+    };
+
+    /******* The program gets started below *******/
+    console.log('program starts')
+    fight(); //begins the program and display the FIGHT!!! message at the beginning of the code
+
+})();
