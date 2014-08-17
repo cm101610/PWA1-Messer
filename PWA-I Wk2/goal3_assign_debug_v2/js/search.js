@@ -115,6 +115,6 @@
         // return false is needed for most events - this will be reviewed in upcoming course material
         // THE LINE DIRECTLY BELOW IS CORRECT
         return false;
-    };
+    }; //added } to fix the code error
 
 })();
