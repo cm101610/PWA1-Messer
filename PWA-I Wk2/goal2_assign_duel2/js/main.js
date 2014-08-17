@@ -83,12 +83,12 @@
         //else if player1 has health less than 1, but player2 does not, then player2 wins notification
         //else if player2 has health less than 1, but player1 does not, then player1 wins notification
 
-        if(playerOneHealth<1 && playerTwoHealth<1) {
+        if(fighter1[2]<1 && fighter2[2]<1) { //updated the if else if statements to reflect the new arrays being used in the code
             result = "You Both Die";
-        } else if(playerOneHealth<1){
-            result = playerTwoName+" WINS!!!"
-        } else if(playerTwoHealth<1){
-            result = playerOneName+" WINS!!!"
+        } else if(figher1[2]<1){
+            result = fighter2[0]+" WINS!!!"
+        } else if(fighter2[2]<1){
+            result = fighter1[0]+" WINS!!!"
         };
 
         return result; //returning the results of each round back to the if/else statement above determining no winner or to the if/else if statement determining who the winner is
