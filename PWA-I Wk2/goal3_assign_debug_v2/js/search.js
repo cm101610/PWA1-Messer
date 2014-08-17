@@ -8,7 +8,7 @@
 	;
 	
 	// Validates search query
-	var validqte == function(query){
+	var validate = function(query){ // fixed misspelled word and removed one of the =
 		
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
