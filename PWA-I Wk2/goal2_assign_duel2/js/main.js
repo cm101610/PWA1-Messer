@@ -31,7 +31,7 @@
         console.log('in the fight function');
 
         //set up message to alert the user of the player name and starting health
-        alert(fighter1[0]+":"+fighter1[2]+"   *START*   "+fighter2[0]+":"+fighter2[2]);
+        alert(fighter1[0]+": "+fighter1[2]+"   *START*   "+fighter2[0]+": "+fighter2[2]);
 
         for(var i=0; i<10;i++){
 
