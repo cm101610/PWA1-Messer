@@ -32,10 +32,10 @@
 	}; //; is not needed here
 
 	// Finds search matches
-	var search = function(query) //need a ; here
+        var search = function(query){ //added a { here
 
 		// split the user's search query string into an array
-		var queryArray = query.join(" ");
+		var queryArray = query.split(" ");
 
 		// array to store matched results from database.js
 		var results = [];
