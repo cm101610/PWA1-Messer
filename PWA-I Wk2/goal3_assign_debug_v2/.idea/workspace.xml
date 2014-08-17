@@ -26,10 +26,10 @@
       <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1875">
-              <caret line="22" column="101" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="101" />
+            <state vertical-scroll-proportion="0.77922076" vertical-offset="0" max-vertical-offset="1875">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
-                <marker date="1408303935000" expanded="false" signature="2200:2215" placeholder="..." />
+                <marker date="1408304135000" expanded="false" signature="2230:2245" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -174,16 +174,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="1875">
-          <caret line="22" column="101" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="101" />
+        <state vertical-scroll-proportion="0.77922076" vertical-offset="0" max-vertical-offset="1875">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
-            <marker date="1408303935000" expanded="false" signature="2200:2215" placeholder="..." />
+            <marker date="1408304135000" expanded="false" signature="2230:2245" placeholder="..." />
           </folding>
         </state>
       </provider>

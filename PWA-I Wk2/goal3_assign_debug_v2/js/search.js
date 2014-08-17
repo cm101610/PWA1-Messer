@@ -31,7 +31,7 @@
 	};
 	
 	// Finds search matches
-	var search = function(query)
+	var search = function(query){ //added { at the end of line
 		
 		// split the user's search query string into an array
 		var queryArray = query.join(" ");
