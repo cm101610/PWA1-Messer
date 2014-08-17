@@ -9,7 +9,8 @@
 
     console.log("FIGHT!!!"); //console.log used to be sure the .js file is set up and working correctly
 
-    
+    var fighter1=["Mask Face", 20, 100];    //set up array for Fighter 1
+    var fighter2=["Tattoo Guy", 20, 100];   //set up array for Fighter 1
 
     //Old Code - changed everything to arrays
     //player name
@@ -30,7 +31,7 @@
         console.log('in the fight function');
 
         //set up message to alert the user of the player name and starting health
-        alert(playerOneName+": "+playerOneHealth+"   *START*   "+playerTwoName+": "+playerTwoHealth);
+        alert(fighter1[0]+":"+fighter1[2]+"   *START*   "+fighter2[0]+":"+fighter2[2]);
 
         for(var i=0; i<10;i++){
 
