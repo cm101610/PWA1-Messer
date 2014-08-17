@@ -31,16 +31,17 @@
         console.log('in the fight function');
 
         //set up message to alert the user of the player name and starting health
+        //changed to reflect the new arrays
         alert(fighter1[0]+": "+fighter1[2]+"   *START*   "+fighter2[0]+": "+fighter2[2]);
 
         for(var i=0; i<10;i++){
 
             //random formula is - Math.floor(Math.random()*(max-min)+min);
-
-            var minDamage1 = player1Damage * .5; //var set for player1 minimum damage being equal to player1Damage multiplied by .5
-            var minDamage2 = player2Damage * .5; //var set for player2 minimum damage being equal to player1Damage multiplied by .5
-            var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1); //var set for randomizing the number that the player1 is damaged by.
-            var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2); //var set for randomizing the number that the player2 is damaged by.
+            //updated to reflect the arrays
+            var minDamage1 = fighter1[1] * .5; //var set for player1 minimum damage being equal to player1Damage multiplied by .5
+            var minDamage2 = fighter2[1] * .5; //var set for player2 minimum damage being equal to player1Damage multiplied by .5
+            var f1 = Math.floor(Math.random()*(fighter1[1]-minDamage1)+minDamage1); //var set for randomizing the number that the player1 is damaged by.
+            var f2 = Math.floor(Math.random()*(fighter2[1]-minDamage2)+minDamage2); //var set for randomizing the number that the player2 is damaged by.
 
             //console.log(f1);
             //console.log(f2);
