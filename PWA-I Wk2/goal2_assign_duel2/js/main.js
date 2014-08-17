@@ -9,17 +9,20 @@
 
     console.log("FIGHT!!!"); //console.log used to be sure the .js file is set up and working correctly
 
+    
+
+    //Old Code - changed everything to arrays
     //player name
-    var playerOneName = "Mask Face"; //var set up to give player 1 a name
-    var playerTwoName = "Tattoo Guy"; //var set up to give player 2 a name
+    //var playerOneName = "Mask Face"; //var set up to give player 1 a name
+    //var playerTwoName = "Tattoo Guy"; //var set up to give player 2 a name
 
     //player damage
-    var player1Damage = 20; //var set up to set damage attributes for each player.
-    var player2Damage = 20; //both damages set to 20, random number selected between 0-20 and subtracted from health
+    //var player1Damage = 20; //var set up to set damage attributes for each player.
+    //var player2Damage = 20; //both damages set to 20, random number selected between 0-20 and subtracted from health
 
     //player health
-    var playerOneHealth = 100; //var set up for player health attributes.
-    var playerTwoHealth = 100; //each player begins with 100 and health is lost based on random number generated
+    //var playerOneHealth = 100; //var set up for player health attributes.
+    //var playerTwoHealth = 100; //each player begins with 100 and health is lost based on random number generated
 
     var round=0; //var set up to begin with round 0. number is set at 0 so when the first round ends the alert will say that round 1 has ended.
 
