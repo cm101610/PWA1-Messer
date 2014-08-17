@@ -1,7 +1,7 @@
 /*
     Name: Christopher Messer
-    Date: August 5, 2014
-    Assignment: Goal1: Assignment: Duel1
+    Date: August 17, 2014
+    Assignment: Goal2: Assignment: Duel2
  */
 
 //self-executing function
