@@ -85,7 +85,7 @@
 
         if(fighter1[2]<1 && fighter2[2]<1) { //updated the if else if statements to reflect the new arrays being used in the code
             result = "You Both Die";
-        } else if(figher1[2]<1){
+        } else if(fighter1[2]<1){
             result = fighter2[0]+" WINS!!!"
         } else if(fighter2[2]<1){
             result = fighter1[0]+" WINS!!!"
