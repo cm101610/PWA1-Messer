@@ -8,7 +8,7 @@
 	;
 	
 	// Validates search query
-	var validate = function(query){ // fixed misspelled word and removed one of the =
+	var validate = function(query){ //fixed misspelling and removed a =
 		
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
@@ -20,7 +20,7 @@
 		
 		// Check search length, must have 3 characters
 		if(query.length < 3){
-			alert("Your search query is too small, try again."); //added end " to close the statement
+			alert("Your search query is too small, try again.");
 			
 			// (DO NOT FIX THE LINE DIRECTLY BELOW)
 			searchInput.focus();
@@ -31,7 +31,7 @@
 	};
 	
 	// Finds search matches
-	var search = function(query){ //added { at the end of line
+	var search = function(query)
 		
 		// split the user's search query string into an array
 		var queryArray = query.join(" ");
@@ -41,17 +41,17 @@
 
 		// loop through each index of db array
 		for(var i=0, j=db.length; i<j; i++){
-		
+
 			// each db[i] is a single video item, each title ends with a pipe "|"
 			// save a lowercase variable of the video title
 			var dbTitleEnd = db[i].indexOf('|');
 			var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);
-			
+
 			// loop through the user's search query words
 			// save a lowercase variable of the search keyword
 			for(var ii=0, jj=queryArray.length; ii<jj; ii++){
 				var qitem = queryArray[ii].tolowercase();
-				
+
 				// is the keyword anywhere in the video title?
 				// If a match is found, push full db[i] into results array
 				var compare = dbitem.indexOf(qitem);
