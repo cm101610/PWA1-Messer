@@ -34,7 +34,7 @@
 	var search = function(query){ //added { to fix the error appearing in line 37
 		
 		// split the user's search query string into an array
-		var queryArray = query.join(" ");
+		var queryArray = query.split(" "); //changed .join to .split
 		
 		// array to store matched results from database.js
 		var results = [];

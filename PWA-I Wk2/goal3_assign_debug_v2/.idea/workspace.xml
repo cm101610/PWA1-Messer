@@ -26,10 +26,10 @@
       <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1991342" vertical-offset="147" max-vertical-offset="1875">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.5670996" vertical-offset="147" max-vertical-offset="1875">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="68" />
               <folding>
-                <marker date="1408311359000" expanded="true" signature="2528:2543" placeholder="..." />
+                <marker date="1408311450000" expanded="true" signature="2555:2570" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -174,23 +174,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/js/search.js</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1991342" vertical-offset="147" max-vertical-offset="1875">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.5670996" vertical-offset="147" max-vertical-offset="1875">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="68" />
           <folding>
-            <marker date="1408311359000" expanded="true" signature="2528:2543" placeholder="..." />
+            <marker date="1408311450000" expanded="true" signature="2555:2570" placeholder="..." />
           </folding>
         </state>
       </provider>
