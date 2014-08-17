@@ -8,7 +8,7 @@
 	;
 
 	// Validates search query
-	var validqte == function(query){        //misspelled word, should be validate
+	var validate = function(query){        //misspelled word, changed to validate, removed == to just a =
 
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
@@ -20,7 +20,7 @@
 
 		// Check search length, must have 3 characters
 		if(query.length < 3){
-			alert("Your search query is too small, try again.);
+			alert("Your search query is too small, try again.");
                 //end " missing above after again to close the string.
 
 			// (DO NOT FIX THE LINE DIRECTLY BELOW)

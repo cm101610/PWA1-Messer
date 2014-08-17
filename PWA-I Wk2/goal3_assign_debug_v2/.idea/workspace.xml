@@ -48,10 +48,10 @@
       <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.21645021" vertical-offset="0" max-vertical-offset="1890">
+              <caret line="10" column="105" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="105" />
               <folding>
-                <marker date="1408301832000" expanded="false" signature="2510:2525" placeholder="..." />
+                <marker date="1408302025000" expanded="false" signature="2535:2550" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -273,7 +273,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1605" max-vertical-offset="1875">
           <caret line="107" column="4" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="4" />
           <folding>
-            <marker date="1408301832000" expanded="false" signature="2510:2525" placeholder="..." />
+            <marker date="1408302025000" expanded="false" signature="2535:2550" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -324,10 +324,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21645021" vertical-offset="0" max-vertical-offset="1890">
+          <caret line="10" column="105" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="105" />
           <folding>
-            <marker date="1408301832000" expanded="false" signature="2510:2525" placeholder="..." />
+            <marker date="1408302025000" expanded="false" signature="2535:2550" placeholder="..." />
           </folding>
         </state>
       </provider>
