@@ -11,7 +11,7 @@
 	var validate = function(query){ //fixed misspelling and removed a =
 		
 		// Trim whitespace from start and end of search query
-		while(query.charAt(0) = " "){
+		while(query.charAt(0) === " "){ //change to a triple = to compare a variable
 			query = query.substring(1, query.length);
 		};
 		while(query.charAt(query.length-1) === "") {
