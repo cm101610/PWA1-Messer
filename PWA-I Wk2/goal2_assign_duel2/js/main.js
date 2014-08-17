@@ -47,10 +47,11 @@
             //console.log(f2);
 
             //inflict damage
-            playerOneHealth-=f1; //damage that is inflicted on the player based on the random number generated for f1
-            playerTwoHealth-=f2; //damage that is inflicted on the player based on the random number generated for f2
+            //updated to reflect the new arrays
+            fighter1[2]-=f1; //damage that is inflicted on the player based on the random number generated for f1
+            fighter2[2]-=f2; //damage that is inflicted on the player based on the random number generated for f2
 
-            console.log(playerOneName+": "+playerOneHealth+" "+playerTwoName+": "+playerTwoHealth); //testing to make sure code is still running correctly
+            console.log(fighter1[0]+": "+fighter1[2]+" "+fighter2[0]+": "+fighter2[2]); //testing to make sure code is still running correctly
 
             var results = winnerCheck(); //var set for results to notify the user of the winner
             console.log(results); //test to make sure results are showing in the console
