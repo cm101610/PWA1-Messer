@@ -161,8 +161,21 @@
             document.querySelector(".buttonblue").innerHTML = "DONE!!!";
         }
     }
+
+    function winnerCheck(){
+        var result = "no winner";
+        if(fighters[0].health < 1 && fighters[1].health < 1)
+        {
+            result = "You Both Die - GAME OVER!";
+        }else if(fighers[0].health < 1){
+            result = fighters[1].name + " WINS!!!!";
+        }else if(fighers[1].health < 1){
+            result = fighters[0].name + " WINS!!!!";
+        }
+        return result;
+    }
     /******* The program gets started below *******/
-    console.log('program starts')
-    fight(); //begins the program and display the FIGHT!!! message at the beginning of the code
+    //console.log('program starts')
+    //fight(); //begins the program and display the FIGHT!!! message at the beginning of the code
 
 })();
