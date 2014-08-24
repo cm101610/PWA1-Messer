@@ -1,7 +1,7 @@
 /*
  Name: Christopher Messer
- Date: August 17, 2014
- Assignment: Wk 2 Homework: Assignment 2: Buggy Search Engine v2
+ Date: August 24, 2014
+ Assignment: Wk 3 Homework: Assignment 2: Buggy Search Engine v3
  */
 
 // Create privatized scope using a self-executing function
