@@ -103,6 +103,21 @@
         };
     };
 */
+    //New Fight Function with the DOM
+    function fight(){
+    fighter1_txt.innerHTML = fighters[0].name + ":" + fighters[0].health;
+    fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
+
+        //Determine damage
+        var f1 = Math.floor(Math.random() * fighters[0].damage + fighters[0].damage *.5);
+        var f2 = Math.floor(Math.random() * fighters[1].damage + fighters[1].damage *.5);
+
+        //Causing damage
+        fighters[0].health -=f1;
+        fighters[1].health -=f2;
+
+        console.log(fighters[0].health, fighters[1].health);
+        
     function winnerCheck(){ //begin winnerCheck function to determine if there is a winner, if not cycle back through to earlier code
         console.log("in winnerCheck FN"); //test to make sure program is working correctly and displaying all the rounds, health status and winner or no winner
 
