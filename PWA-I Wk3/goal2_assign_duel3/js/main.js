@@ -50,7 +50,7 @@
             health: 100
         }];
 
-    var round = 0;
+    var round = 1;
 
     //Initializing the DOM for the top of the HTML page
     round_txt.innerHTML = "Click the FIGHT BUTTON to Start!";
