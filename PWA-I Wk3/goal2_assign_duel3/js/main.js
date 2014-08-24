@@ -117,7 +117,7 @@
         fighters[1].health -=f2;
 
         console.log(fighters[0].health, fighters[1].health);
-        
+/*
     function winnerCheck(){ //begin winnerCheck function to determine if there is a winner, if not cycle back through to earlier code
         console.log("in winnerCheck FN"); //test to make sure program is working correctly and displaying all the rounds, health status and winner or no winner
 
@@ -139,7 +139,7 @@
         return result; //returning the results of each round back to the if/else statement above determining no winner or to the if/else if statement determining who the winner is
 
     };
-
+*/
     /******* The program gets started below *******/
     console.log('program starts')
     fight(); //begins the program and display the FIGHT!!! message at the beginning of the code
