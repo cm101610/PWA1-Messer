@@ -169,7 +169,7 @@
             result = "You Both Die - GAME OVER!";
         }else if(fighters[0].health < 1){
             result = fighters[1].name + " WINS!!!!";
-        }else if(fighers[1].health < 1){
+        }else if(fighters[1].health < 1){
             result = fighters[0].name + " WINS!!!!";
         }
         return result;
