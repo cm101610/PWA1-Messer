@@ -9,8 +9,15 @@
 
     console.log("FIGHT!!!"); //console.log used to be sure the .js file is set up and working correctly
 
-    var fighter1=["Mask Face", 20, 100];    //set up array for Fighter 1
-    var fighter2=["Tattoo Guy", 20, 100];   //set up array for Fighter 1
+    //DOM pieces
+    var fighter1_txt = document.getElementById("mf"); //DOM var added for fighter1 Mask Face
+    var fighter2_txt = document.getElementById("tg"); //DOM var added for fighter2 Tattoo Guy
+    var round_txt = document.getElementById("round_number"); //DOM var added for round number
+    var button = document.getElementById("fight_btn"); //DOM var added for the main fight button
+
+    //Old Code - changed everything from array to DOM
+    //var fighter1=["Mask Face", 20, 100];    //set up array for Fighter 1
+    //var fighter2=["Tattoo Guy", 20, 100];   //set up array for Fighter 1
 
     //Old Code - changed everything to arrays
     //player name
