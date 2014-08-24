@@ -58,7 +58,7 @@
     fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
 
     //Beginning of the fight function
-    function fight(){
+    /* function fight(){
 
         //set up message to alert the user of the player name and starting health
         //changed to reflect the new arrays
@@ -102,7 +102,7 @@
 
         };
     };
-
+*/
     function winnerCheck(){ //begin winnerCheck function to determine if there is a winner, if not cycle back through to earlier code
         console.log("in winnerCheck FN"); //test to make sure program is working correctly and displaying all the rounds, health status and winner or no winner
 
