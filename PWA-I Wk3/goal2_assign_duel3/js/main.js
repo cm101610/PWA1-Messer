@@ -140,6 +140,27 @@
 
     };
 */
+//New Winner Check
+        var result = winnerCheck();
+        console.log(result);
+
+        round_txt.innerHTML = "ROUND #" + round + " Results:";
+        round++;
+        if(result === "no winner") {
+            fighter1_txt.innerHTML = fighters[0].name + ":" + fighters[0].health;
+            fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
+
+        }else{
+            fighter1_txt.innerHTML = result;
+            fighter2_txt.innerHTML = "";
+
+            //Disable button
+            button.removeEventListener("click", fight, false);
+            //disabled = true
+
+            document.querySelector(".buttonblue").innerHTML = "DONE!!!";
+        }
+    }
     /******* The program gets started below *******/
     console.log('program starts')
     fight(); //begins the program and display the FIGHT!!! message at the beginning of the code
