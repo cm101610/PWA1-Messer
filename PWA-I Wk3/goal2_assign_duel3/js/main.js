@@ -32,10 +32,33 @@
     //var playerOneHealth = 100; //var set up for player health attributes.
     //var playerTwoHealth = 100; //each player begins with 100 and health is lost based on random number generated
 
-    var round=0; //var set up to begin with round 0. number is set at 0 so when the first round ends the alert will say that round 1 has ended.
+    //var round=0; //var set up to begin with round 0. number is set at 0 so when the first round ends the alert will say that round 1 has ended.
 
-    function fight(){ //the beginning of the fight function
-        console.log('in the fight function');
+    //Setup Click Event
+    button.addEventListener("click", fight, false);
+
+    //Setup Fighters Array
+    var fighters = [
+        {
+            name:"Mask Face",
+            damage:20,
+            health:100
+        },
+        {
+            name: "Tattoo Guy",
+            damage: 20,
+            health: 100
+        }];
+
+    var round = 0;
+
+    //Initializing the DOM for the top of the HTML page
+    round_txt.innerHTML = "Click the FIGHT BUTTON to Start!";
+    fighter1_txt.innerHTML = fighters[0].name + ":" + fighters[0].health;
+    fighter2_txt.innerHTML = fighters[1].name + ":" + fighters[1].health;
+
+    //Beginning of the fight function
+    function fight(){
 
         //set up message to alert the user of the player name and starting health
         //changed to reflect the new arrays
