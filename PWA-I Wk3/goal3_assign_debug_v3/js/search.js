@@ -51,7 +51,7 @@
             // each db[i] is a single video item, each title ends with a pipe "|"
             // save a lowercase variable of the video title
             var dbTitleEnd = db[i].indexOf('|');
-            var dbitem = db[i].tolowercase().substring(0, dbTitleEnd);
+            var dbitem = db[i].toLowerCase().substring(0, dbTitleEnd); // made correction from tolowercase to toLowerCase
 
             // loop through the user's search query words
             // save a lowercase variable of the search keyword

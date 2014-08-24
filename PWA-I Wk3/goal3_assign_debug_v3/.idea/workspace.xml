@@ -26,10 +26,11 @@
       <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.064935066" vertical-offset="0" max-vertical-offset="1965">
-              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.72794116" vertical-offset="300" max-vertical-offset="1965">
+              <caret line="53" column="121" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="121" />
               <folding>
-                <marker date="1408907047000" expanded="false" signature="2677:2692" placeholder="..." />
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1408907204000" expanded="false" signature="2728:2743" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -170,7 +171,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/search.js</url>
+          <line>53</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -179,7 +187,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1965">
           <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
           <folding>
-            <marker date="1408907047000" expanded="false" signature="2677:2692" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1408907204000" expanded="false" signature="2728:2743" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -197,7 +206,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="147" max-vertical-offset="1875">
           <caret line="36" column="68" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="68" />
           <folding>
-            <marker date="1408907047000" expanded="false" signature="2677:2692" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1408907204000" expanded="false" signature="2728:2743" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -212,10 +222,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.064935066" vertical-offset="0" max-vertical-offset="1965">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.72794116" vertical-offset="300" max-vertical-offset="1965">
+          <caret line="53" column="121" selection-start-line="53" selection-start-column="74" selection-end-line="53" selection-end-column="121" />
           <folding>
-            <marker date="1408907047000" expanded="false" signature="2677:2692" placeholder="..." />
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1408907204000" expanded="false" signature="2728:2743" placeholder="..." />
           </folding>
         </state>
       </provider>
